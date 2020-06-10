@@ -5,11 +5,8 @@
 	"version": "1.0.0",
 	"description": "",
 	"license": "MIT",
-	"devDependencies": {
-		"@gveditor/sdk": "^0.1.4"
-	},
 	"textTheme":"one-dark",
-	"fileTheme":"cm.css",
+	"fileTheme":"syntax.css",
 	"type":"theme",
 	"colorsScheme":{
 		"accentColor": "#e5c07b",
@@ -21,8 +18,9 @@
 		"menuButtonHoveringBackground":"#282C34",
 		"menuButtonText":"white",
 		"menuButtonHoveringText":"white",
+		"menuOptionHoveringBackground":"#6AC17C",
 		"menuOptionText":"white",
-		"menuOptionHoveringText":"white",
+		"menuOptionHoveringText":"black",
 		"menuDivider":"rgb(180,180,180)",
 		"controlButtonsFill":"white",
 		"controlButtonsHoverBackground":"#282C34",

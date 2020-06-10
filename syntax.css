@@ -1,10 +1,8 @@
 /*
     Name:       one-dark 1.1.1
     Author:     Török Ádám (http://github.com/Aerobird98)
-    Original Atom One Dark Theme (https://github.com/atom/one-dark-ui & https://github.com/atom/one-dark-syntax)
 */
 
-/* basic */
 .cm-s-one-dark {
   font-family: Menlo, Consolas, 'DejaVu Sans Mono', monospace;
   font-weight: 350;
@@ -28,7 +26,6 @@
   background-color: transparent;
 }
 .cm-s-one-dark .CodeMirror-cursor {border-left: 2px solid #56b6c2 !important;}
-/* addon: edit/machingbrackets.js & addon: edit/matchtags.js */
 .cm-s-one-dark .CodeMirror-matchingbracket,
 .cm-s-one-dark .CodeMirror-matchingtag {
   border-bottom: 2px solid #56b6c2;
@@ -40,7 +37,7 @@
   color: #abb2bf !important;
   background-color: transparent;
 }
-/* addon: fold/foldgutter.js */
+
 .cm-s-one-dark .CodeMirror-foldmarker,
 .cm-s-one-dark .CodeMirror-foldgutter,
 .cm-s-one-dark .CodeMirror-foldgutter-open,
@@ -50,9 +47,8 @@
   color: #5c6370 !important;
   background-color: transparent;
 }
-/* addon: selection/active-line.js */
+
 .cm-s-one-dark .CodeMirror-activeline-background {background-color: rgba(153, 187, 255, 0.04);}
-/* basic syntax */
 .cm-s-one-dark .cm-header {color: #e06c75;}
 .cm-s-one-dark .cm-quote {color: #5c6370;font-style: italic;}
 .cm-s-one-dark .cm-negative {color: #e06c75;}
@@ -79,10 +75,9 @@
 .cm-s-one-dark .cm-bracket {color: #abb2bf;}
 .cm-s-one-dark .cm-comment {color: #5c6370;font-style: italic;}
 .cm-s-one-dark .cm-error {color: #e06c75;}
-/* css syntax corrections */
+
 .cm-s-one-dark .cm-m-css.cm-variable {color: #828997;}
 .cm-s-one-dark .cm-m-css.cm-property  {color: #abb2bf;}
 .cm-s-one-dark .cm-m-css.cm-atom  {color: #56b6c2;}
 .cm-s-one-dark .cm-m-css.cm-builtin {color: #56b6c2;}
-/* lua syntax corrections */
 .cm-s-one-dark .cm-m-lua.cm-variable {color: #56b6c2;}
