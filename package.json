@@ -3,119 +3,298 @@
 	"id": "one-dark-theme",
 	"author":"Marc Espín Sanz",
 	"version": "1.0.0",
-	"description": "",
+	"description": "One Dark for Graviton Editor.",
 	"license": "MIT",
 	"textTheme":"one-dark",
 	"fileTheme":"syntax.css",
 	"type":"theme",
 	"colorsScheme":{
-		"accentColor": "#e5c07b",
-		"textColor":"white",
-		"bodyBackground":"#25272C",
-		"titlebarBackground":"#25272C",
-		"menuBackground":"#25272C",
-		"menuButtonBackground":"transparent",
-		"menuButtonHoveringBackground":"#282C34",
-		"menuButtonText":"white",
-		"menuButtonHoveringText":"white",
-		"menuOptionHoveringBackground":"#6AC17C",
-		"menuOptionText":"white",
-		"menuOptionHoveringText":"black",
-		"menuDivider":"rgb(180,180,180)",
-		"controlButtonsFill":"white",
-		"controlButtonsHoverBackground":"#282C34",
-		"controlCloseButtonHoverBackground":"rgba(232,17,35)",
-		"controlCloseButtonHoverFill":"white",
-		"windowBackground":"#25272C",
-		"windowIconsFill":"white",
-		"contextmenuBackground":"#333333",
-		"contextmenuButtonBackground":"#333333",
-		"contextmenuButtonText":"white",
-		"contextmenuButtonHoveringBackground":"#F45D54",
-		"contextmenuButtonHoveringText":"white",
-		"contextmenuDivider":"rgb(180,180,180)",
-		"mainpanelBackground":"#282C34",
-		"tabsbarBackground":"#25272C",
-		"tabBackground":"transparent",
-		"tabText":"white",
-		"tabActiveText":"white",
-		"tabActiveBackground":"#282C34",
-		"tabHoveringWhileDraggingBackground":"rgb(50,50,50)",
-		"scrollbarBackground":"rgba(0,0,0,0.4)",
-		"scrollbarHoverBackground":"rgba(0,0,0,0.7)",
-		"tabIconFill":"white",
-		"tabIconHoverFill":"gray",
-		"sidemenuBackground":"#282C34",
-		"sidemenuButtonBackground":"transparent",
-		"sidemenuButtonHoverBackground":"#25272C",
-		"sidemenuButtonActiveBackground":"#6AC17C",
-		"sidemenuButtonText":"white",
-		"sidemenuButtonActiveText":"black",
-		"sidemenuSearcherBackground":"#25272C",
-		"sidemenuSearcherText":"white",
-		"explorerItemText":"white",
-		"explorerItemHoveringBackground":"rgba(150,150,150,0.6)",
-		"explorerItemSelectedBackground":"rgba(150,150,150,0.3)",
-		"explorerItemArrowBackground":"white",
-		"explorerItemGitModifiedText":"#5D9DFC",
-		"explorerItemGitNotAddedText":"#FFAB09",
-		"explorerItemGitModifiedIndicator":"#5D9DFC",
-		"explorerItemGitNotAddedIndicator":"#FFAB09",
-		"explorerItemGitIndicatorText":"white",
-		"cardBackground":"#2F3645",
-		"buttonBackground":"#282C34",
-		"buttonImportantBackground":"rgb(255, 0, 72)",
-		"buttonImportantText":"white",
-		"radioBackgroundHovering":"rgb(60,60,60)",
-		"radioCircleBackground":"#222222",
-		"radioCircleBorder":"#666666",
-		"radioCircleBorderHovering":"#FE5E8B",
-		"windowBorder":"rgb(50,50,50)",
-		"fileNotSavedIndicator":"white",
-		"fileNotSavedIndicatorHovering":"rgb(255, 0, 72)",
-		"controlCloseButtonActiveBackground":"rgba(241,112,122)",
-		"controlCloseButtonActiveFill":"black",
-		"editorDialogBackground":"#333333",
-		"editorDialogText":"white",
-		"statusbarBackground":"#25272C",
-		"statusbarBorder":"rgba(150,150,150)",
-		"statusbarItemBackground":"transparent",
-		"statusbarItemHoveringBackground":"rgb(60,60,60)",
-		"statusbarItemImportantBackground": "#282C34",
-		"statusbarItemImportantText": "black",
-		"statusbarItemText":"white",
-		"statusbarItemHoveringText":"white",
-		"statusbarItemIconBackground":"white",
-		"statusbarGitItemText":"white",
-		"statusbarGitItemModifiedText":"#FFAB09",
-		"inputBackground":"transparent",
-		"inputText":"white",
-		"splashScreenText":"white",
-		"splashScreenBackground":"#191919",
-		"commandPromptInputBackground":"#191919",
-		"commandPromptInputText":"white",
-		"commandPromptInputBorder":"rgb(255, 0, 72)",
-		"commandPromptBackground":"#333333",
-		"commandPromptOptionBackground":"#333333",
-		"commandPromptOptionActiveBackground":"rgb(255, 0, 72)",
-		"commandPromptOptionText":"white",
-		"commandPromptOptionActiveText":"white",
-		"notificationBackground":"#282C34",
-		"notificationTitleText":"white",
-		"notificationContentText":"white",
-		"notificationButtonBackground":"#25272C",
-		"panelBorder":"rgba(150,150,150)",
-		"switchBackground":"rgb(60,60,60)",
-		"switchIndicatorActivatedBackground":"rgb(255, 0, 72)",
-		"switchIndicatorDesactivatedBackground":"rgb(220,200,200)",
-		"loaderBackground":"white",
-		"sidebarIconsFill": "rgb(200,200,200)",
-		"sidebarIconsActiveFill": "white",
-		"sidebarIconsHoveringFill": "rgb(215,215,215)",
-		"sidebarIconBackground": "transparent",
-		"sidebarIconHoveringBackground": "#25272C",
-		"sidebarIconActiveBackground": "#25272C",
-		"sidebarBackground": "#282C34"
-		
+		"accent": {
+			"Color": "#e5c07b"
+		},
+		"text": {
+			"Color": "white"
+		},
+		"body": {
+			"Background": "#25272C"
+		},
+		"titlebar": {
+			"Background": "#25272C"
+		},
+		"menu": {
+			"Background": "#25272C",
+			"Button": {
+				"Background": "transparent",
+				"Hovering": {
+					"Background": "#282C34",
+					"Text": "white"
+				},
+				"Text": "white"
+			},
+			"Option": {
+				"Hovering": {
+					"Background": "#6AC17C",
+					"Text": "black"
+				},
+				"Text": "white"
+			},
+			"Divider": "rgb(180,180,180)"
+		},
+		"control": {
+			"Buttons": {
+				"Fill": "white",
+				"Hover": {
+					"Background": "#282C34"
+				}
+			},
+			"Close": {
+				"Button": {
+					"Hover": {
+						"Background": "rgba(232,17,35)",
+						"Fill": "white"
+					},
+					"Active": {
+						"Background": "rgba(241,112,122)",
+						"Fill": "black"
+					}
+				}
+			}
+		},
+		"window": {
+			"Background": "#25272C",
+			"Icons": {
+				"Fill": "white"
+			},
+			"Border": "rgb(50,50,50)"
+		},
+		"contextmenu": {
+			"Background": "#333333",
+			"Button": {
+				"Background": "#333333",
+				"Text": "white",
+				"Hovering": {
+					"Background": "#F45D54",
+					"Text": "white"
+				}
+			},
+			"Divider": "rgb(180,180,180)"
+		},
+		"mainpanel": {
+			"Background": "#282C34"
+		},
+		"tabsbar": {
+			"Background": "#25272C"
+		},
+		"tab": {
+			"Background": "transparent",
+			"Text": "white",
+			"Active": {
+				"Text": "white",
+				"Background": "#282C34"
+			},
+			"Hovering": {
+				"While": {
+					"Dragging": {
+						"Background": "rgb(50,50,50)"
+					}
+				}
+			},
+			"Icon": {
+				"Fill": "white",
+				"Hover": {
+					"Fill": "gray"
+				}
+			}
+		},
+		"scrollbar": {
+			"Background": "rgba(0,0,0,0.4)",
+			"Hover": {
+				"Background": "rgba(0,0,0,0.7)"
+			}
+		},
+		"sidemenu": {
+			"Background": "#282C34",
+			"Button": {
+				"Background": "transparent",
+				"Hover": {
+					"Background": "#25272C"
+				},
+				"Active": {
+					"Background": "#6AC17C",
+					"Text": "black"
+				},
+				"Text": "white"
+			},
+			"Searcher": {
+				"Background": "#25272C",
+				"Text": "white"
+			}
+		},
+		"explorer": {
+			"Item": {
+				"Text": "white",
+				"Hovering": {
+					"Background": "rgba(150,150,150,0.6)"
+				},
+				"Selected": {
+					"Background": "rgba(150,150,150,0.3)"
+				},
+				"Arrow": {
+					"Background": "white"
+				},
+				"Git": {
+					"Modified": {
+						"Text": "#5D9DFC",
+						"Indicator": "#5D9DFC"
+					},
+					"Not": {
+						"Added": {
+							"Text": "#FFAB09",
+							"Indicator": "#FFAB09"
+						}
+					},
+					"Indicator": {
+						"Text": "white"
+					}
+				}
+			}
+		},
+		"card": {
+			"Background": "#2F3645"
+		},
+		"button": {
+			"Background": "#282C34",
+			"Important": {
+				"Background": "rgb(255, 0, 72)",
+				"Text": "white"
+			}
+		},
+		"radio": {
+			"Background": {
+				"Hovering": "rgb(60,60,60)"
+			},
+			"Circle": {
+				"Background": "#222222",
+				"Border": "#666666"
+			}
+		},
+		"file": {
+			"Not": {
+				"Saved": {
+					"Indicator": "white"
+				}
+			}
+		},
+		"editor": {
+			"Dialog": {
+				"Background": "#333333",
+				"Text": "white"
+			}
+		},
+		"statusbar": {
+			"Background": "#25272C",
+			"Border": "rgba(150,150,150)",
+			"Item": {
+				"Background": "transparent",
+				"Hovering": {
+					"Background": "rgb(60,60,60)",
+					"Text": "white"
+				},
+				"Important": {
+					"Background": "#282C34",
+					"Text": "black"
+				},
+				"Text": "white",
+				"Icon": {
+					"Background": "white"
+				}
+			},
+			"Git": {
+				"Item": {
+					"Text": "white",
+					"Modified": {
+						"Text": "#FFAB09"
+					}
+				}
+			}
+		},
+		"input": {
+			"Background": "transparent",
+			"Text": "white"
+		},
+		"splash": {
+			"Screen": {
+				"Text": "white",
+				"Background": "#191919"
+			}
+		},
+		"command": {
+			"Prompt": {
+				"Input": {
+					"Background": "#191919",
+					"Text": "white",
+					"Border": "rgb(255, 0, 72)"
+				},
+				"Background": "#333333",
+				"Option": {
+					"Background": "#333333",
+					"Active": {
+						"Background": "rgb(255, 0, 72)",
+						"Text": "white"
+					},
+					"Text": "white"
+				}
+			}
+		},
+		"notification": {
+			"Background": "#282C34",
+			"Title": {
+				"Text": "white"
+			},
+			"Content": {
+				"Text": "white"
+			},
+			"Button": {
+				"Background": "#25272C"
+			}
+		},
+		"panel": {
+			"Border": "rgba(150,150,150)"
+		},
+		"switch": {
+			"Background": "rgb(60,60,60)",
+			"Indicator": {
+				"Activated": {
+					"Background": "rgb(255, 0, 72)"
+				},
+				"Desactivated": {
+					"Background": "rgb(220,200,200)"
+				}
+			}
+		},
+		"loader": {
+			"Background": "white"
+		},
+		"sidebar": {
+			"Icons": {
+				"Fill": "rgb(200,200,200)",
+				"Active": {
+					"Fill": "white"
+				},
+				"Hovering": {
+					"Fill": "rgb(215,215,215)"
+				}
+			},
+			"Icon": {
+				"Background": "transparent",
+				"Hovering": {
+					"Background": "#25272C"
+				},
+				"Active": {
+					"Background": "#25272C"
+				}
+			},
+			"Background": "#282C34"
+		}
 	}
 }
