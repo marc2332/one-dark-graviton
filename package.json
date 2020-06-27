@@ -22,7 +22,7 @@
 			"Background": "#25272C"
 		},
 		"menu": {
-			"Background": "#25272C",
+			"Background": "#2e3038",
 			"Button": {
 				"Background": "transparent",
 				"Hovering": {
@@ -68,9 +68,9 @@
 			"Border": "rgb(50,50,50)"
 		},
 		"contextmenu": {
-			"Background": "#333333",
+			"Background": "#2e3038",
 			"Button": {
-				"Background": "#333333",
+				"Background": "#2e3038",
 				"Text": "white",
 				"Hovering": {
 					"Background": "#F45D54",
@@ -175,13 +175,19 @@
 			},
 			"Circle": {
 				"Background": "#222222",
-				"Border": "#666666"
+				"Border": "#666666",
+				"Hovering":{
+					"Border":"#666666"
+				}
 			}
 		},
 		"file": {
 			"Not": {
 				"Saved": {
-					"Indicator": "white"
+					"Indicator": "white",
+					"Hovering":{
+						"Indicator": "#e5c07b"
+					}
 				}
 			}
 		},
